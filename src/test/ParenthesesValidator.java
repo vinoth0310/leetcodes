@@ -73,4 +73,13 @@ public class ParenthesesValidator {
         }
         return valid && stack.isEmpty();
     }
+    static int i=0;
+    public void increement(){
+        i++;
+        System.out.println(i);
+    }
+
+    public static void main(String[] args) {
+        new ParenthesesValidator().increement();
+    }
 }
